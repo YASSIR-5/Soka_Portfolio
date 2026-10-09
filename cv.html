@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV — Soukaina Ait Ali, Design d'intérieur</title>
+  <meta name="description" content="Curriculum vitae de Soukaina Ait Ali, designer d'intérieur — consultation en ligne et téléchargement PDF." />
+  <meta name="robots" content="noindex" />
+  <meta name="theme-color" content="#F4F0E8" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .cv-frame{width:100%;height:min(82svh,1100px);border:1px solid var(--line);background:var(--white)}
+    .cv-actions{display:flex;gap:1rem;flex-wrap:wrap;margin-top:1.6rem}
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-head solid">
+    <div class="container head-row">
+      <a class="brand" href="index.html" aria-label="Soukaina Ait Ali — accueil">
+        <b>Soukaina Ait&nbsp;Ali</b><span>Design d'intérieur</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Ouvrir le menu"><i></i><i></i><i></i></button>
+      <nav id="nav" class="nav" aria-label="Navigation principale">
+        <a href="projets.html">Projets</a>
+        <a href="apropos.html">À propos</a>
+        <a href="contact.html">Contact</a>
+        <a href="cv.html">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <div class="container" style="padding-top:8rem;padding-bottom:var(--section-y)">
+      <p class="meta reveal">Document</p>
+      <h1 class="h-lg line-mask" style="margin:.8rem 0 1rem"><span>Curriculum&nbsp;vitæ</span></h1>
+      <p class="small reveal" style="max-width:60ch;margin-bottom:2rem">Version en ligne du CV. L'adresse privée n'est pas diffusée sur ce site — coordonnées professionnelles dans le document.</p>
+
+      <iframe class="cv-frame" src="cv/Soukaina_Ait_Ali_CV.pdf#toolbar=1&view=FitH" title="CV de Soukaina Ait Ali — visionneuse PDF" loading="lazy"></iframe>
+
+      <p class="cv-actions">
+        <a class="btn" href="cv/Soukaina_Ait_Ali_CV.pdf" download>Télécharger le PDF</a>
+        <a class="btn btn--ghost" href="contact.html">Me contacter</a>
+      </p>
+      <noscript><p class="small">La visionneuse nécessite un lecteur PDF intégré ; utilisez le bouton de téléchargement ci-dessus.</p></noscript>
+    </div>
+  </main>
+
+  <footer class="site-foot">
+    <div class="container foot-grid">
+      <p class="brand"><b>Soukaina Ait&nbsp;Ali</b><span>Design d'intérieur — Rabat</span></p>
+      <nav aria-label="Liens de pied de page">
+        <a href="index.html">Accueil</a>
+        <a href="projets.html">Projets</a>
+        <a href="apropos.html">À propos</a>
+      </nav>
+      <p class="foot-note">© 2026 Soukaina Ait Ali</p>
+    </div>
+  </footer>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
